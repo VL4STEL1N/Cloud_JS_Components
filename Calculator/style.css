@@ -131,11 +131,12 @@ button{
 
 .all__result{
     color: #637381;
-    text-align: center;
+    text-align: end;
 }
 
 .text__result{
     color: rgb(30, 30, 30);
     font-size: 48px;
     margin: 0;
+    text-align: end;
 }

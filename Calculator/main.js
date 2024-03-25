@@ -207,7 +207,6 @@ Nodebuttons__click.addEventListener("click", function (){
 characterPlus.addEventListener("click" , ()=> {
     NodeAll__result.innerHTML = results;
     let counterPlus = 0;
-    
     let resultA = "";
     let resultB = "";
     if(counterPlus == 0) {
