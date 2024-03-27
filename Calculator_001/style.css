@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #DC3D00;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.calculator{
+    width: 470px;
+    height: 680px;
+    background-color: black;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 5px solid;
+    transition: border 0.5s;
+}
+
+.calculator:hover{
+    border: 5px solid white;
+    transition: border 0.8s;
+}
+
+.display{
+    color: #02C244;
+    font-size: 70px;
+    text-align: end;
+    font-family: 'Do Hyeon';
+    font-weight: 300;
+    width: 100%;
+    height: 90px;
+    overflow-x: hidden;
+    overflow-y: hidden ;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    row-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 42px;
+}
+
+button{
+    border: none;
+    margin: 0;
+    color: white;
+    width: 74px;
+    height: 74px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 30px;
+    border-radius: 50px;
+    background-color: rgba(128,128,128,0.372);
+}
+
+#zero__btn{
+    width: 180px;
+    text-align: start;
+    padding-inline: 30px;
+}
+
+.orange__btn{
+    background-color: #F8711E;
+}
+.orange__btn:active{
+    border: 2px solid #ffff;
+}
+
+.gray__btn{
+    background-color: #828282;
+}
+
+.ros__btn{
+    background-color: #E94E48;
+}
+
+.digit__button:active{
+    border: 2px solid #F8711E;
+}
