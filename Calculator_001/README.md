@@ -1,5 +1,5 @@
 # 🇨alculator_001 / 🇭TML 🇨SS 🇯S
-
+Простой калькулятор, написанный на JavaScript, HTML и CSS 
 
 
 ![image](https://github.com/VL4STEL1N/Cloud_JS_Components/assets/127986242/ce55f297-2f73-4203-ae92-3728cdd172a6)
